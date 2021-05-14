@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ReceiptScanner:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ReceiptScanner_jar</output-path>
+    <root id="archive" name="ReceiptScanner.jar">
+      <element id="module-output" name="ReceiptScanner" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/java-json.jar/java-json.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
