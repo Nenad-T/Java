@@ -1,6 +1,7 @@
 
 import fi.helsinki.cs.tmc.edutestutils.MockStdio;
 import fi.helsinki.cs.tmc.edutestutils.Points;
+import java.io.IOException;
 import org.junit.*;
 import static org.junit.Assert.assertTrue;
 
@@ -15,7 +16,7 @@ public class LiteracyComparisonTest {
     public MockStdio io = new MockStdio();
 
     @Test
-    public void literacyComparisonTest() {
+    public void literacyComparisonTest() throws IOException {
         LiteracyComparison.main(new String[]{});
         String[] output = io.getSysOut().split("\n");
 
