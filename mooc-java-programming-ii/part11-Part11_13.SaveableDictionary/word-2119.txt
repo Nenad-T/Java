@@ -1,0 +1,4 @@
+tietokone
+:computerapina
+:monkeyolut
+:beer
